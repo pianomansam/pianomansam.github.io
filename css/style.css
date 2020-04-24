@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Armata:400,700);
+/* line 15, ../sass/style.scss */
+body {
+  text-shadow: #292929 2px 2px 0px;
+  background: #333333;
+  color: #EEE;
+  font-family: 'Armata', sans-serif;
+  padding: 0 24px;
+}
+
+/* line 24, ../sass/style.scss */
+h1, h2 {
+  text-shadow: #292929 3px 3px 0px;
+}
+
+/* line 29, ../sass/style.scss */
+h1 {
+  font-size: 3em;
+  margin: 0 0 0;
+}
+@media all and (min-width: 665px) {
+  /* line 29, ../sass/style.scss */
+  h1 {
+    margin: 1em 0 0;
+  }
+}
+
+/* line 39, ../sass/style.scss */
+#tagline {
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+/* line 45, ../sass/style.scss */
+a {
+  border-bottom: 1px dotted white;
+  color: #EEE;
+  text-decoration: none;
+}
+/* line 49, ../sass/style.scss */
+a:hover {
+  color: white;
+  border-bottom-style: solid;
+}
+
+/* line 55, ../sass/style.scss */
+ul {
+  margin-left: 0;
+  padding-left: 1em;
+  margin-bottom: 3em;
+}
+
+/* line 61, ../sass/style.scss */
+li {
+  margin-bottom: 6px;
+}
+
+/* line 65, ../sass/style.scss */
+ul ul {
+  margin-top: 6px;
+}
+
+/* line 71, ../sass/style.scss */
+#photo {
+  margin-bottom: 1em;
+}
+/* line 73, ../sass/style.scss */
+#photo img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media all and (min-width: 665px) {
+  /* line 80, ../sass/style.scss */
+  #photo {
+    float: right;
+    max-width: 50%;
+    margin: 0 0 1em 2em;
+  }
+}
+/* line 88, ../sass/style.scss */
+#social {
+  clear: right;
+  float: right;
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+/* line 94, ../sass/style.scss */
+#social li {
+  margin-bottom: 1em;
+  padding: 0;
+  display: block;
+  list-style: none;
+}
+@media all and (min-width: 665px) {
+  /* line 94, ../sass/style.scss */
+  #social li {
+    margin: 0 0 2em 0;
+    float: right;
+  }
+}
+/* line 105, ../sass/style.scss */
+#social li a {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  border: none;
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+  background-size: 100%;
+}
+/* line 115, ../sass/style.scss */
+#social li a:hover {
+  -webkit-box-shadow: 3px 3px 0px #292929;
+  -moz-box-shadow: 3px 3px 0px #292929;
+  box-shadow: 3px 3px 0px #292929;
+}
+/* line 121, ../sass/style.scss */
+#social #facebook a {
+  background-image: url("../images/facebook.png");
+}
+/* line 125, ../sass/style.scss */
+#social #twitter a {
+  background-image: url("../images/twitter.png");
+}
+/* line 129, ../sass/style.scss */
+#social #linkedin a {
+  background-image: url("../images/linkedin.png");
+}
